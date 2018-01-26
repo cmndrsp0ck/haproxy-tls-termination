@@ -15,8 +15,6 @@ variable "ssh_fingerprint" {}
 
 variable "public_key" {}
 
-variable "public_key2" {}
-
 variable "node_count" {}
 
 variable "lb_size" {}
