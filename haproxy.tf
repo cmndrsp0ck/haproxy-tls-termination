@@ -44,7 +44,7 @@ data "template_file" "user_data" {
   template = "${file("${path.module}/config/cloud-config.yaml")}"
 
   vars {
-    public_key  = "${var.public_key}"
+    public_key = "${var.public_key}"
   }
 }
 

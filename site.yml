@@ -5,10 +5,10 @@
 
 - hosts: web_node
   roles:
-    - nginx80-backend
+    - cmndrsp0ck.nginx80-backend
   become: True
 
 - hosts: load_balancer
   roles:
-    - haproxy-tls
+    - cmndrsp0ck.haproxy-tls
   become: True
