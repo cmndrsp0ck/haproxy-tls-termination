@@ -5,6 +5,6 @@ site.retry
 *.tfvars
 .terraform
 terraform.tfstate.d
-vault
+vault*
 *.pyc
 venv
