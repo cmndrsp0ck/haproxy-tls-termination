@@ -21,7 +21,7 @@ Install the Ansible roles using the requirements.yml file.
     $ ansible-galaxy install -r requirements.yml
 
 
-Next we need to get Ansible set up by heading over to **group\_vars/all**. You can now create a file to store your sensitive data. Any name will do but I recommend sticking with something like *vault*. Declare your **vault_** variables in this file.
+Next we need to get Ansible set up by heading over to **group\_vars/load_balancer/vault.yml**. You can now create a file to store your sensitive data. Any name will do but I recommend sticking with something like *vault.yml*. Declare your **vault_** variables in this file.
 
     vault_do_token: umvkl89wsxwuuz4a1nyzap5rsyk4un9fza5qokd7nzrn42owfclv8gdqk3k5gzqlz
     vault_ha_auth_key: 0dgivsxomvb80sx3uvd6u42j3920pbvveik007ec8
