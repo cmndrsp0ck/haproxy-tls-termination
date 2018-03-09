@@ -5,10 +5,10 @@
 
 - hosts: web_node
   roles:
-    - cmndrsp0ck.nginx80-backend
+    - cmndrsp0ck.ansible-nginx-backend
   become: True
 
 - hosts: load_balancer
   roles:
-    - cmndrsp0ck.haproxy-tls
+    - cmndrsp0ck.ansible-haproxy-tls-termination
   become: True
