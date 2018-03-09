@@ -1,4 +1,4 @@
 # install roles
-- src: cmndrsp0ck.haproxy-tls
+- src: cmndrsp0ck.ansible-haproxy-tls-termination
 
-- src: cmndrsp0ck.nginx80-backend
+- src: cmndrsp0ck.ansible-nginx-backend
